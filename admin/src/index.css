@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Geist+Mono:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@300..900&family=Orbitron:wght@400..900&family=Protest+Revolution&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #fcfcfc;
+}
+
+a{
+    text-decoration: none;
+    color : inherit;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #a9a9a9;
+
+}
+
+
+
+.app-content{
+    display: flex
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cursor{
+    cursor: pointer;
+}

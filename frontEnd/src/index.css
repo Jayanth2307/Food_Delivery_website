@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Geist+Mono:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@300..900&family=Orbitron:wght@400..900&family=Protest+Revolution&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.27rem;
+  scroll-behavior:smooth;
+}
+body{
+  height: 100vh;
+  
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.app{
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100;
+  }
+}
+
