@@ -5,7 +5,7 @@ export const StoreContext = createContext();
 
 const StoreContextProvider = (props) => {
     const [token, setToken] = useState("");
-    const url = "http://localhost:4000"
+    const url = "https://food-delivery-website-1-ocit.onrender.com"
 
     const [food_list, setFoodList] = useState([]);
     const fetchFoodList = async () => {

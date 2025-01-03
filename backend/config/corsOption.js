@@ -1,4 +1,4 @@
-const allowedOrigins = ['http://localhost:5173','http://localhost:5174','https://food-delivery-website-admin-mvco.onrender.com']
+const allowedOrigins = ['https://food-delivery-website-admin-mvco.onrender.com','https://food-delivery-website-frontend-wbya.onrender.com']
 
 const corsOptions ={
     origin: (origin,callback)=>{
