@@ -8,7 +8,7 @@ import {assets} from '../../assets/assets'
 const Orders = ({url}) => {
   const [orders,setOrders]=useState([])
 const fetchAllOrders = async()=>{
-  const response = await axios.get("http://localhost:4000/api/order/list")
+  const response = await axios.get("https://food-delivery-website-1-ocit.onrender.com/api/order/list")
   if(response.data.success){
     setOrders(response.data.data)
     console.log(response.data.data)
